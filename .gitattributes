@@ -1,0 +1,6 @@
+# 强制所有 shell 脚本使用 Linux 换行符 LF
+*.sh text eol=lf
+
+# 其他文本文件也统一使用 LF，避免以后踩坑
+*.md text eol=lf
+*.txt text eol=lf
