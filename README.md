@@ -11,6 +11,21 @@ VPS 通用一键部署工具箱（无端口限制版）
 2. `cloudreve-nginx-universal.sh`  
    部署 Cloudreve 个人网盘 + Nginx 反向代理分流，可手动填入 VMess 端口，自动生成 Nginx 配置，无需手动改配置文件。
 
+bash <(curl -Ls https://raw.githubusercontent.com/用户名/仓库名/main/vmess-ws-universal.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/用户名/仓库名/main/cloudreve-nginx-universal.sh)
+
+   ## 一键下载脚本
+# 下载两个脚本
+wget https://raw.githubusercontent.com/bushede/OneKey-VPS-Tools/main/vmess-ws-universal.sh
+wget https://raw.githubusercontent.com/bushede/OneKey-VPS-Tools/main/cloudreve-nginx-universal.sh
+
+# 添加执行权限
+chmod +x vmess-ws-universal.sh cloudreve-nginx-universal.sh
+
+# 运行脚本
+bash vmess-ws-universal.sh
+bash cloudreve-nginx-universal.sh
+
 ## 部署顺序（必看）
 1. 先运行：`vmess-ws-universal.sh`  
    记录好：域名、VMess本地端口、WS路径、UUID
