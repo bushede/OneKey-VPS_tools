@@ -23,10 +23,13 @@ wget https://raw.githubusercontent.com/bushede/OneKey-VPS-Tools/main/vmess-ws-un
 wget https://raw.githubusercontent.com/bushede/OneKey-VPS-Tools/main/cloudreve-nginx-universal.sh
 
 # 添加执行权限
-chmod +x vmess-ws-universal.sh cloudreve-nginx-universal.sh
+chmod +x vmess-ws-universal.sh
+
+./cloudreve-nginx-universal.sh
 
 # 运行脚本
 bash vmess-ws-universal.sh
+
 bash cloudreve-nginx-universal.sh
 
 ## 部署顺序（必看）
