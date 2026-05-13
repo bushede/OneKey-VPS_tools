@@ -18,6 +18,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/bushede/OneKey-VPS_tools/main/
    ## 一键下载脚本
 # 下载两个脚本
 wget https://raw.githubusercontent.com/bushede/OneKey-VPS-Tools/main/vmess-ws-universal.sh
+
+
 wget https://raw.githubusercontent.com/bushede/OneKey-VPS-Tools/main/cloudreve-nginx-universal.sh
 
 # 添加执行权限
